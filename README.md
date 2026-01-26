@@ -1,9 +1,18 @@
 # Cybersecurity Prompts
 
-A collection of advanced, enterprise‑grade AI prompts designed to support cybersecurity engineers, SOC analysts, and IT leadership. Each prompt includes a clear **Goal** describing its purpose and intended outcome.
+A curated collection of advanced, enterprise‑grade AI prompts designed for cybersecurity engineers, SOC analysts, and IT leadership. Each prompt includes a clear **Goal** describing its purpose and intended outcome.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+![Category: Cybersecurity](https://img.shields.io/badge/Category-Cybersecurity-red.svg)
+
+---
 
 ## 🎯 Purpose
-Provide deterministic, structured prompts that enhance threat analysis, communication, and operational cybersecurity workflows.
+
+This repository provides deterministic, structured prompts that enhance threat analysis, communication, and operational cybersecurity workflows. These prompts are designed to reduce cognitive load, improve clarity, and support real‑world decision‑making.
+
+---
 
 ## 📂 Prompt Catalog
 
@@ -25,11 +34,41 @@ Provide deterministic, structured prompts that enhance threat analysis, communic
 ### **Executive Summary Generator for Root Cause Analysis**
 **Goal:** Produce a concise, executive‑level RCA summary with contributing factors and remediation steps.
 
+---
+
+## 🔗 Related Repositories
+
+- **Cybersecurity Learning Prompts**  
+  Interactive tutors and reasoning games for security fundamentals  
+  https://github.com/scottmalin68-commits/Cybersecurity-Learning-Prompts
+
+- **Azure‑Related Prompts**  
+  Identity, access, and cloud policy analysis tools  
+  https://github.com/scottmalin68-commits/Azure-Related-Prompts
+
+- **Misc AI Prompts**  
+  Cognitive load tools, reasoning engines, and general AI utilities  
+  https://github.com/scottmalin68-commits/Misc-AI-Prompts
+
+---
+
 ## 🧩 Who This Is For
-SOC analysts, cybersecurity engineers, threat intel teams, incident responders, and IT leadership.
+
+- SOC analysts  
+- Cybersecurity engineers  
+- Threat intelligence teams  
+- Incident responders  
+- IT leadership  
+
+---
 
 ## 🚀 How to Use
-Open any prompt file and follow the embedded instructions.
+
+Open any prompt file and follow the embedded instructions.  
+Each prompt is standalone and designed for direct use in AI assistants.
+
+---
 
 ## 📜 License
+
 MIT License
