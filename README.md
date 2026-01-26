@@ -1,52 +1,40 @@
-# Cybersecurity Prompt Suite
+# Cybersecurity Prompts
 
-A curated collection of AI prompts designed for security engineers, analysts, and automation specialists. These prompts support tasks across identity, endpoint defense, incident response, and workflow automation, with a focus on deterministic behavior and minimal hallucination.
+A collection of advanced, enterprise‑grade AI prompts designed to support cybersecurity engineers, SOC analysts, and IT leadership. Each prompt includes a clear **Goal** section describing its purpose and intended outcome.
 
-## Purpose
+## 🎯 Purpose
+This repository provides structured, deterministic prompts that help analyze threats, communicate findings, and support operational cybersecurity workflows.
 
-This repository provides reusable, production‑tested prompts that help cybersecurity teams:
-- Analyze IAM and Conditional Access configurations
-- Simulate access decisions with evidence‑based logic
-- Troubleshoot endpoint and authentication issues
-- Automate repetitive security workflows
-- Explore security concepts through structured, guided AI interactions
+## 📂 Prompt Catalog
 
-## Philosophy
+### **Advanced Cybersecurity Threat Intelligence Aggregator**
+**Goal:** Aggregate multi‑source threat intelligence into a structured, analyst‑ready report.
 
-These prompts are built with:
-- **Deterministic logic** — strict rules to reduce hallucinations  
-- **Security‑first design** — no assumptions, no fabricated data  
-- **Enterprise alignment** — mirrors real IAM and endpoint workflows  
-- **Extensibility** — easy to adapt for different tenants, tools, or environments  
+### **Cybersecurity Threat Intelligence Aggregator – Human Readable Output**
+**Goal:** Produce a simplified, narrative‑style threat summary suitable for leadership and non‑technical audiences.
 
-## Included Prompts
+### **DBAR Communication & Audience Translation Assistant**
+**Goal:** Translate technical cybersecurity findings into audience‑appropriate language for executives, managers, or technical teams.
 
-- **Conditional Access Policy Analyzer**  
-  Deterministic evaluation of Azure AD Conditional Access policies with simulation mode.
+### **Daily Cyber Threat Brief**
+**Goal:** Generate a repeatable, daily snapshot of emerging threats, vulnerabilities, and relevant intelligence.
 
-- **IAM Decision Logic Explorer**  
-  Helps break down identity flows, authentication steps, and policy interactions.
+### **Disaster Backup & Recovery (DBAR) Design Companion**
+**Goal:** Assist in designing or evaluating disaster recovery and business continuity strategies.
 
-- **Endpoint Troubleshooting Assistant**  
-  Guides through structured diagnostics for Windows update loops, driver issues, and configuration drift.
+### **Executive Summary Generator for Root Cause Analysis**
+**Goal:** Produce a concise, executive‑level summary of an RCA with clear contributing factors and remediation steps.
 
-- **Security Automation Prompt Templates**  
-  Modular prompts for building repeatable workflows in Copilot or other LLMs.
+## 🧩 Who This Is For
+- SOC analysts  
+- Cybersecurity engineers  
+- Threat intelligence teams  
+- Incident responders  
+- IT leadership  
 
-(You can expand this list as you add files.)
+## 🚀 How to Use
+Open any prompt file and follow the embedded instructions.  
+Each prompt is standalone and designed for direct use in AI assistants.
 
-## How to Use
-
-1. Open any prompt file in this repository.  
-2. Copy the full prompt into your AI assistant.  
-3. Follow the usage notes at the top of each file.  
-4. Provide your environment‑specific details (policy JSON, logs, scenarios, etc.) when requested.
-
-## Contributing
-
-Suggestions, improvements, and new prompt ideas are welcome.  
-Open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
+## 📜 License
+MIT License
