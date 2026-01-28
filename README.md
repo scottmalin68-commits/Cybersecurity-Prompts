@@ -1,186 +1,228 @@
 <!-- ========================================================= -->
-<!--                     REPOSITORY BANNER                     -->
+<!-- ===================== REPO BANNER ======================== -->
 <!-- ========================================================= -->
 
-<h1 align="center">
-  🛡️ Cybersecurity Prompts  
-</h1>
+<p align="center">
+  <img src="BANNER_PLACEHOLDER.png" width="85%" alt="Cybersecurity Prompt Library Banner">
+</p>
+
+<h1 align="center">Cybersecurity Prompt Library</h1>
+<h3 align="center">By Scott Malin — Cybersecurity & Automation Architect</h3>
 
 <p align="center">
-  Enterprise‑grade AI prompts for threat analysis, communication, and operational cybersecurity workflows.  
-  Designed for analysts, engineers, and IT leadership who need clarity, structure, and precision.
+A curated suite of high‑impact AI prompts for cybersecurity professionals, IT leaders, and security‑minded individuals.
 </p>
 
 ---
 
 <!-- ========================================================= -->
-<!--                           BADGES                           -->
+<!-- ======================== BADGES ========================== -->
 <!-- ========================================================= -->
 
 <p align="center">
-
-  <!-- License -->
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
-
-  <!-- Repo Status -->
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status: Active">
-
-  <!-- Category -->
-  <img src="https://img.shields.io/badge/Category-Cybersecurity-red.svg" alt="Category: Cybersecurity">
-
-  <!-- Stars -->
-  <img src="https://img.shields.io/github/stars/scottmalin68-commits/Cybersecurity-Prompts?style=social" alt="GitHub Stars">
 
   <!-- Last Updated -->
-  <img src="https://img.shields.io/github/last-commit/scottmalin68-commits/Cybersecurity-Prompts" alt="Last Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026--01--28-blue?style=for-the-badge">
 
-  <!-- Languages -->
-  <img src="https://img.shields.io/github/languages/top/scottmalin68-commits/Cybersecurity-Prompts" alt="Top Language">
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+
+  <!-- Category -->
+  <img src="https://img.shields.io/badge/Category-Cybersecurity_Prompts-purple?style=for-the-badge">
+
+  <!-- Repo Type -->
+  <img src="https://img.shields.io/badge/Type-AI_Frameworks-orange?style=for-the-badge">
+
+  <!-- Stars -->
+  <img src="https://img.shields.io/github/stars/scottmalin68-commits/Cybersecurity-Prompts?style=for-the-badge">
+
+  <!-- Forks -->
+  <img src="https://img.shields.io/github/forks/scottmalin68-commits/Cybersecurity-Prompts?style=for-the-badge">
+
+  <!-- Workflow Status -->
+  <img src="https://img.shields.io/github/actions/workflow/status/scottmalin68-commits/Cybersecurity-Prompts/repo-health.yml?style=for-the-badge&label=Repo%20Health">
 
 </p>
 
 ---
 
-## 🎯 Purpose
+# ⭐ Featured Prompt: Scam Detection Conversation Helper
 
-This repository provides **deterministic, structured cybersecurity prompts** that enhance:
+### **Scam Detection Conversation Helper.md**  
+A guided, interactive AI assistant that helps users safely navigate suspicious messages, emails, phone calls, and online interactions.
 
-- Threat intelligence analysis  
-- Executive and technical communication  
-- Incident response workflows  
-- Disaster recovery planning  
-- Root cause analysis  
-- Daily situational awareness  
+**Goal:**  
+To teach users how to recognize scams, understand red flags, and build long‑term scam‑avoidance skills through safe, supportive, step‑by‑step conversation.
 
-Each prompt includes a clear **Goal** so users understand the intended outcome and how to apply it effectively.
+This prompt:
 
----
+- Walks users through potential scam scenarios  
+- Teaches *why* something is suspicious  
+- Helps identify red flags  
+- Provides safe next steps  
+- Supports vulnerable or non‑technical users  
+- Builds lasting digital safety awareness  
 
-## 🧠 Why This Repo Exists
-
-Cybersecurity work is overloaded with noise, ambiguity, and constant context‑switching. Analysts and engineers spend enormous time rewriting the same summaries, translating technical findings for leadership, and stitching together threat intelligence from scattered sources.
-
-This repository exists to solve that problem.
-
-These prompts were built to:
-
-- Reduce cognitive load during high‑pressure security work  
-- Standardize communication across technical and executive audiences  
-- Provide deterministic, repeatable structures for analysis  
-- Accelerate threat triage and reporting  
-- Support analysts who need clarity fast  
-- Bring architectural rigor to AI‑assisted cybersecurity workflows  
-
-In short:  
-**This repo turns AI into a reliable, structured cybersecurity co‑pilot — not a creative wildcard.**
+This is one of the most **practical, protective, and educational** prompts in the entire library.
 
 ---
 
-## 🏗️ Architecture Overview (ASCII Diagram)
-               ┌──────────────────────────────────┐
-               │      Cybersecurity Prompts       │
-               │  (Deterministic AI Framework)    │
-               └──────────────────────────────────┘
-                               │
-                               ▼
-    ┌──────────────────────────────────────────────────────────┐
-    │                    Input Sources                          │
-    │  • Threat intel feeds                                     │
-    │  • Logs / alerts / incidents                              │
-    │  • Vulnerability reports                                  │
-    │  • Analyst notes                                          │
-    └──────────────────────────────────────────────────────────┘
-                               │
-                               ▼
-    ┌──────────────────────────────────────────────────────────┐
-    │                 Prompt Modules (This Repo)                │
-    │  • Threat Intelligence Aggregator                         │
-    │  • Human‑Readable Threat Summary                          │
-    │  • DBAR Communication Assistant                           │
-    │  • Daily Threat Brief                                     │
-    │  • Disaster Recovery Companion                            │
-    │  • RCA Executive Summary Generator                        │
-    └──────────────────────────────────────────────────────────┘
-                               │
-                               ▼
-    ┌──────────────────────────────────────────────────────────┐
-    │                 Structured Output Layers                  │
-    │  • Analyst‑ready reports                                  │
-    │  • Executive summaries                                    │
-    │  • Audience‑specific translations                         │
-    │  • Daily briefs                                           │
-    │  • DR/BCP design insights                                 │
-    └──────────────────────────────────────────────────────────┘
-                               │
-                               ▼
-    ┌──────────────────────────────────────────────────────────┐
-    │                 Downstream Consumers                      │
-    │  • SOC analysts                                           │
-    │  • IR teams                                               │
-    │  • CISOs / leadership                                     │
-    │  • Audit & compliance                                     │
-    │  • Engineering teams                                      │
-    └──────────────────────────────────────────────────────────┘
+# 🚀 Featured Tools (with Icons)
 
-    
----
-
-## 📂 Prompt Catalog
-
-### **Advanced Cybersecurity Threat Intelligence Aggregator**
-**Goal:** Aggregate multi‑source threat intelligence into a structured, analyst‑ready report.
-
-### **Cybersecurity Threat Intelligence Aggregator — Human Readable Output**
-**Goal:** Produce simplified, narrative‑style threat summaries for leadership and non‑technical audiences.
-
-### **DBAR Communication & Audience Translation Assistant**
-**Goal:** Translate technical cybersecurity findings into audience‑appropriate language.
-
-### **Daily Cyber Threat Brief**
-**Goal:** Generate a daily snapshot of emerging threats, vulnerabilities, and relevant intelligence.
-
-### **Disaster Backup & Recovery (DBAR) Design Companion**
-**Goal:** Assist in designing or evaluating disaster recovery and business continuity strategies.
-
-### **Executive Summary Generator for Root Cause Analysis**
-**Goal:** Produce concise, executive‑level RCA summaries with contributing factors and remediation steps.
+| Prompt | Goal |
+|--------|------|
+| 🛡️ **Scam Detection Conversation Helper** | Teach users to recognize and avoid scams through guided conversation |
+| 📊 **Daily Cyber Threat Brief** | Provide concise, executive‑ready daily threat summaries |
+| 🧠 **Advanced Threat Intelligence Aggregator** | Synthesize multi‑source threat intel into structured outputs |
+| 🏛️ **Executive‑Safe Security Decision Explanation** | Translate complex security decisions into business‑friendly language |
+| 🔄 **DBAR Design Companion** | Guide creation of resilient, business‑aligned disaster recovery strategies |
+| 📚 **Security Knowledge Transfer Engine** | Convert expert knowledge into reusable training content |
 
 ---
 
-## 🧩 Who This Is For
-
-- SOC analysts  
-- Cybersecurity engineers  
-- Threat intelligence teams  
-- Incident responders  
-- IT leadership  
-- Anyone responsible for communicating or analyzing security posture  
+# 📁 Repository Structure  
+Each prompt now includes a **Goal** statement for clarity and consistency.
 
 ---
 
-## 🚀 How to Use
+## 🧠 Threat Intelligence & Analysis
 
-Open any prompt file and follow the embedded instructions.  
-Each prompt is standalone and designed for direct use in AI assistants.
+### **Advanced Cybersecurity Threat Intelligence Aggregator.md**  
+**Goal:** Combine multiple threat intel sources into a unified, structured analysis.
 
----
+### **Cybersecurity Threat Intelligence Aggregator – Human.md**  
+**Goal:** Produce narrative‑style, human‑readable threat summaries.
 
-## 🔗 Related Repositories
-
-- **Cybersecurity Learning Prompts**  
-  Gamified security reasoning and scenario‑based learning  
-  https://github.com/scottmalin68-commits/Cybersecurity-Learning-Prompts
-
-- **Azure‑Related Prompts**  
-  Identity, access, and cloud policy analysis tools  
-  https://github.com/scottmalin68-commits/Azure-Related-Prompts
-
-- **Misc AI Prompts**  
-  Cognitive load tools, reasoning engines, and general AI utilities  
-  https://github.com/scottmalin68-commits/Misc-AI-Prompts
+### **Daily Cyber Threat Brief.md**  
+**Goal:** Generate a concise, executive‑ready daily threat briefing.
 
 ---
 
-## 📜 License
+## 🏢 Executive & Leadership Communication
 
-MIT License
+### **Executive Summary Generator for Root Cause Analysis.md**  
+**Goal:** Convert technical RCA details into polished executive summaries.
+
+### **Executive-Safe IT Resourcing & Staffing Justification.md**  
+**Goal:** Justify staffing needs using risk‑aware, leadership‑friendly language.
+
+### **Executive-Safe Security Decision Explanation.md**  
+**Goal:** Translate complex security decisions into clear business terms.
+
+### **DBAR Communication & Audience Translation Assistant.md**  
+**Goal:** Tailor disaster recovery messaging for different audiences.
+
+---
+
+## 🛠️ Disaster Recovery, Resilience & Operations
+
+### **Disaster Backup & Recovery (DBAR) Design Companion.md**  
+**Goal:** Guide creation of robust, business‑aligned DBAR strategies.
+
+### **Role Resilience & Knowledge Concentration Assessment.md**  
+**Goal:** Identify single points of failure in team knowledge and responsibilities.
+
+### **Root Cause Analysis.md**  
+**Goal:** Provide a structured, repeatable RCA framework.
+
+---
+
+## 🔐 Security Engineering & Architecture
+
+### **Secure Network Engineering Assistant.md**  
+**Goal:** Help design secure network architectures with layered controls.
+
+### **Security Decision Review Assistant.md**  
+**Goal:** Evaluate security decisions for clarity, risk, and alignment.
+
+### **Vendor Claim Evaluator – Security Edition.md**  
+**Goal:** Analyze vendor security claims and identify gaps or exaggerations.
+
+---
+
+## 📚 Knowledge Transfer & Training
+
+### **Security Knowledge Transfer Engine.md**  
+**Goal:** Convert expert knowledge into reusable training content.
+
+### **Security Knowledge Transfer Query Prompt.md**  
+**Goal:** Provide a structured interface for querying institutional knowledge.
+
+### **Senior Cybersecurity Incident Communications Assistant.md**  
+**Goal:** Craft calm, accurate, audience‑appropriate incident communications.
+
+---
+
+# 🧭 How to Use These Prompts
+
+### 1. Choose the prompt that matches your task  
+Each file is a self‑contained framework designed for a specific cybersecurity workflow.
+
+### 2. Copy the entire prompt into your AI assistant  
+Prompts are engineered to be deterministic and structured.
+
+### 3. Provide your input when requested  
+Most prompts include required inputs, optional enhancements, and output formats.
+
+### 4. Use the output in your workflow  
+Examples:  
+- Executive summaries → leadership briefings  
+- Threat intel → SOC standups  
+- Scam helper → user safety coaching  
+- DBAR companion → DR planning  
+
+### 5. Iterate  
+Prompts are designed to be reused and refined.
+
+---
+
+# 🕒 Version History / Changelog
+
+### **v1.3 — January 2026**
+- Added banner support  
+- Added badge suite (stars, forks, workflow status)  
+- Added per‑prompt goal statements  
+- Added Featured Tools section  
+- Added cross‑repo links  
+- README fully redesigned for branding consistency  
+
+### **v1.2 — January 2026**
+- Added new prompts for knowledge transfer and executive communication  
+- Improved structure and categorization  
+
+### **v1.1 — December 2025**
+- Added Scam Detection Conversation Helper  
+- Added threat intelligence prompts  
+
+### **v1.0 — Initial Release**
+- Core prompt library created  
+
+---
+
+# 🔗 Cross‑Links to Related Repositories
+
+### 🛡️ PowerShell Security & Automation Toolkit  
+Advanced AD security analysis, privilege modeling, endpoint diagnostics, and repo governance.  
+https://github.com/scottmalin68-commits/Powershell_Scripts
+
+### 🧩 Misc‑AI‑Prompts  
+General‑purpose AI frameworks for productivity, creativity, and automation.  
+https://github.com/scottmalin68-commits/Misc-AI-Prompts
+
+### 🎮 Learning‑Games‑Prompts  
+Gamified learning frameworks and interactive educational prompts.  
+https://github.com/scottmalin68-commits/Learning-Games-Prompts
+
+### 📘 GitHub Profile README  
+Your top‑level identity, linking all repos into a cohesive professional brand.  
+https://github.com/scottmalin68-commits
+
+---
+
+# 📜 License  
+MIT License — see `LICENSE` for details.
+
+---
+
+# ⭐ About  
+A growing suite of cybersecurity‑focused AI prompts designed to elevate communication, strengthen decision‑making, and support safer digital environments for everyone.
