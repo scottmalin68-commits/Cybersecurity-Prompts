@@ -1,4 +1,5 @@
 # 🛡️ Cybersecurity Prompts  
+![Cybersecurity Prompts Banner](BANNER_Cybersecurity-Prompts.png)
 **Deterministic. Audit-ready. Enterprise-grade.**
 
 A curated collection of AI prompts engineered for security engineers, SOC analysts, incident responders, threat hunters, security leadership, and anyone serious about using AI responsibly in high-stakes security environments.
