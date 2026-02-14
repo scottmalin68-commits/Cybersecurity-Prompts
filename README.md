@@ -1,122 +1,103 @@
-# 🛡️ Cybersecurity Prompts
+# 🛡️ Cybersecurity Prompts  
+**Deterministic. Audit-ready. Enterprise-grade.**
 
-![Cybersecurity Prompts Banner](BANNER_Cybersecurity-Prompts.png)
+A curated collection of AI prompts engineered for security engineers, SOC analysts, incident responders, threat hunters, security leadership, and anyone serious about using AI responsibly in high-stakes security environments.
 
-Governance‑grade AI prompts for security engineers, SOC analysts, IT leadership, and security‑minded individuals.
+These prompts are built from real-world operational experience to:  
+- Enforce strict anti-hallucination and verification chaining  
+- Produce consistent, defensible, professionally phrased outputs  
+- Accelerate workflows while maintaining governance, compliance, and executive trust  
+- Educate and protect users (especially in social engineering and scam scenarios)
 
-This repository contains a curated suite of deterministic, audit‑ready cybersecurity prompts designed to reduce cognitive load, standardize communication, and accelerate high‑stakes security workflows.  
-Every prompt follows strict anti‑hallucination patterns, clear output phases, and enterprise‑safe guardrails.
+Maintained by a practicing cybersecurity professional dedicated to raising the bar on AI-assisted security operations and openly sharing battle-tested tools with the community.
 
----
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![GitHub stars](https://img.shields.io/github/stars/scottmalin68-commits/Cybersecurity-Prompts?style=social)](https://github.com/scottmalin68-commits/Cybersecurity-Prompts)  
+[![Open Issues](https://img.shields.io/github/issues/scottmalin68-commits/Cybersecurity-Prompts)](https://github.com/scottmalin68-commits/Cybersecurity-Prompts/issues)
 
-## ⭐ Featured Prompt: Scam Detection Conversation Helper  
+## Table of Contents
+- [Why These Prompts?](#why-these-prompts)
+- [Key Design Principles](#key-design-principles)
+- [Featured Prompt](#featured-prompt)
+- [Prompt Categories](#prompt-categories)
+- [How to Use](#how-to-use)
+- [Security & Responsible Use](#security--responsible-use)
+- [Contributing](#contributing)
+- [License](#license)
 
-![Scam Detection Conversation Helper](Scam%20Detection%20Conversation%20Helper.png)
+## Why These Prompts?
 
-![Featured Prompt](https://img.shields.io/badge/Featured_Prompt-Scam_Detection_Helper-1f6feb?style=for-the-badge)
-![Safety Enhanced](https://img.shields.io/badge/Safety_Enhanced-Yes-2ea043?style=for-the-badge)
-![Version](https://img.shields.io/badge/v2.6-External_Verification_Edition-8250df?style=for-the-badge)
-![Visual Mode](https://img.shields.io/badge/Visual_Examples-Enabled-1f6feb?style=for-the-badge)
-![Urgency Control](https://img.shields.io/badge/Urgency_De--Escalation-Core_Feature-f85149?style=for-the-badge)
+In security operations, vague or hallucinated AI outputs can lead to misinformed decisions, compliance gaps, or worse. These prompts are deliberately strict: phased workflows, explicit guardrails, output templates, and external verification steps ensure reliable, evidence-based results you can trust in tickets, reports, briefings, or executive summaries.
 
-**A mature, multi‑phase, educational safety engine for real‑world scam prevention**
+Created and refined through hands-on work in threat detection, incident response, security architecture, and program leadership. Open-sourced to help elevate the entire cybersecurity community's responsible adoption of AI tools.
 
-The **Scam Detection Conversation Helper** has become one of the most evolved and user‑protective prompts in the entire ecosystem.  
-It is designed for *anyone* — technical or non‑technical — who is worried they might be dealing with a scammer.  
+## Key Design Principles
+1. **Determinism** — Strict structures, numbered phases, and mandatory output formats reduce variability.  
+2. **Governance-Grade** — Outputs are auditor-friendly, executive-safe, and defensible.  
+3. **User Protection & Education** — Especially in user-facing prompts, the focus is on de-escalation, teaching red flags, and building long-term resilience.
+
+## Featured Prompt: Scam Detection Conversation Helper
+
+**A mature, multi-phase, educational safety engine for real-world scam prevention** — suitable for technical and non-technical users alike.
+
+![Scam Detection Conversation Helper Screenshot](Scam%20Detection%20Conversation%20Helper.png)
 
 ### Why it stands out
-- **Actively de‑escalates urgency**, the #1 psychological lever scammers rely on.  
-- **Teaches as it analyzes**, helping users build long‑term scam‑recognition skills.  
-- **Uses safe, vetted visual examples** (FTC, BBB, etc.) when helpful.  
-- **Performs external verification chaining** to reduce reliance on internal model knowledge.  
-- **Structured, deterministic, phase‑based workflow** ensures clarity and safety.  
-- **Continuously updated** to reflect emerging scam techniques, including AI‑powered threats.
+- Actively counters urgency/pressure tactics (scammers' #1 lever)  
+- Teaches scam recognition skills while analyzing  
+- Chains external verification (FTC, BBB, etc.) to minimize model hallucination  
+- Structured phases ensure clarity, safety, and repeatability  
+- Continuously updated for emerging threats (AI voice cloning, deepfakes, hyper-personalized attacks)
 
-### Recent Evolution (v2.2 → v2.6)
+**Recent Evolution Highlights (v2.2 → v2.6)**  
+- v2.6: External Verification Chaining + trusted-source lookups  
+- v2.5: Enhanced urgency red-flag logic + psychological empowerment phrasing  
+- v2.4: Safe educational visuals from authoritative sources  
+- v2.3: Job scam specialization + proactive teaching  
+- v2.2: AI-powered scam coverage (voice cloning, deepfakes)
 
-- **v2.6 – External Verification Chaining Edition (2026)**  
-  - Added trusted‑source lookups (FTC, BBB, etc.) in PHASE 3  
-  - Introduced optional “External Verification” output block  
-  - Strengthened anti‑hallucination guardrails  
+Full prompt: [Scam Detection Conversation Helper.md](Scam%20Detection%20Conversation%20Helper.md)
 
-- **v2.5 – Stronger Urgency Emphasis Edition (2026)**  
-  - Expanded urgency/pressure red‑flag logic  
-  - Added psychological explanations + empowerment phrasing  
-  - Added optional urgency‑related visual tie‑ins  
+## Prompt Categories
 
-- **v2.4 – Visual Enhancement Edition (2026)**  
-  - Safe educational graphics from trusted sources  
-  - Expanded use‑cases and safety rules  
-  - Render instructions adapted from Social Engineering Awareness Quiz v1.3  
+| Category                              | Focus Areas                                      | Key Prompts |
+|---------------------------------------|--------------------------------------------------|-------------|
+| **Threat Intelligence & Analysis**    | Aggregation, daily briefs, anomaly & adversarial detection | [Advanced Cybersecurity Threat Intelligence Aggregator](Advanced%20Cybersecurity%20Threat%20Intelligence%20Aggregator.md)<br>[Daily Cyber Threat Brief](Daily%20Cyber%20Threat%20Brief.md)<br>[Adversarial Noise Detection Engine](Adversarial%20Noise%20Detection%20Engine.md) |
+| **Security Operations & IR**          | Incident comms, root cause, decision review, behavior anomalies | [Senior Cybersecurity Incident Communications Assistant](Senior%20Cybersecurity%20Incident%20Communications%20Assistant.md)<br>[Executive Summary Generator for Root Cause Analysis](Executive%20Summary%20Generator%20for%20Root%20Cause%20Analysis.md)<br>[Digital Behavior Anomaly Checker](Digital%20Behavior%20Anomaly%20Checker.md) |
+| **Executive & Governance Comms**      | Translating tech to leadership, resourcing justification | [Executive-Safe Security Decision Explanation](Executive-Safe%20Security%20Decision%20Explanation.md)<br>[Executive-Safe IT Resourcing & Staffing Justification](Executive-Safe%20IT%20Resourcing%20%26%20Staffing%20Justification.md)<br>[DBAR Communication & Audience Translation Assistant](DBAR%20Communication%20%26%20Audience%20Translation%20Assistant.md) |
+| **Resilience & Knowledge Transfer**   | Role risk assessment, handover, training       | [Role Resilience & Knowledge Concentration Assessment](Role%20Resilience%20%26%20Knowledge%20Concentration%20Assessment.md)<br>[Security Knowledge Transfer Engine](Security%20Knowledge%20Transfer%20Engine.md) |
+| **Architecture & Vendor Eval**        | Secure design, backup/recovery, claim validation | [Secure Network Engineering Assistant](Secure%20Network%20Engineering%20Assistant.md)<br>[Disaster Backup & Recovery (DBAR) Design Companion](Disaster%20Backup%20%26%20Recovery%20(DBAR)%20Design%20Companion.md)<br>[Vendor Claim Evaluator – Security Edition](Vendor%20Claim%20Evaluator%20–%20Security%20Edition.md) |
 
-- **v2.3 – Job Scam & Proactive Teaching Edition (2026)**  
-  - Added job‑scam‑specific red flags  
-  - Strengthened “teach as we go” language  
-  - Added optional “Emerging Threats Quick Recap”  
+Click any link to view the full prompt file.
 
-- **v2.2 – Emerging Threats Edition (early 2026)**  
-  - Added AI‑powered scam threats (voice cloning, deepfakes, hyper‑personalization)  
-  - Updated examples and red flags  
-  - Tightened PHASE 3 output format  
+## How to Use
+1. Copy the prompt text from the .md file.  
+2. Paste into your preferred LLM interface (ChatGPT, Claude, Grok, etc.).  
+3. Provide context/facts only as instructed — never include real PII, credentials, or sensitive data.  
+4. Review outputs critically; these are tools, not oracles.
 
----
+## Security & Responsible Use
+- **Never input sensitive data** (credentials, PII, internal logs, etc.) into public LLMs.  
+- Always cross-verify critical outputs against trusted sources.  
+- Use these prompts in controlled environments; treat AI as an accelerator, not a replacement for expertise.  
+- If you identify a prompt weakness or safety improvement, report it via a private issue or discussion.
 
-## 📚 Prompt Library  
-A curated set of cybersecurity‑focused prompts designed for clarity, repeatability, and operational value.
+Found a vulnerability in prompt design or want to discuss responsible disclosure? Open an issue labeled "security" or reach out.
 
-### Threat Intelligence & Analysis  
-- **Advanced Cybersecurity Threat Intelligence Aggregator**  
-- **Cybersecurity Threat Intelligence Aggregator – Human Edition**  
-- **Daily Cyber Threat Brief**  
-- **Adversarial Noise Detection Engine**
+## Contributing
+Contributions are very welcome — especially:  
+- New prompts validated in real workflows  
+- Enhancements to determinism, anti-hallucination, or executive phrasing  
+- Updates for emerging threats (quantum risks, AI agent attacks, etc.)
 
-### Security Operations & Incident Response  
-- **Senior Cybersecurity Incident Communications Assistant**  
-- **Root Cause Analysis – Executive Summary Generator**  
-- **Security Decision Review Assistant**  
-- **Digital Behavior Anomaly Checker**
+Please:  
+- Open an issue first for major additions  
+- Follow existing style: clear phases, explicit instructions, structured outputs  
+- Include version notes in the prompt file
 
-### Executive‑Safe Communication & Translation  
-- **Executive‑Safe Security Decision Explanation**  
-- **Executive‑Safe IT Resourcing & Staffing Justification**  
-- **DBAR Communication & Audience Translation Assistant**
+## License
+MIT License — see [LICENSE](LICENSE) for full details.
 
-### Resilience, Knowledge Transfer & Workforce Safety  
-- **Role Resilience & Knowledge Concentration Assessment**  
-- **Security Knowledge Transfer Engine**  
-- **Security Knowledge Transfer Query Prompt**
+Feel free to fork, adapt, and share improvements. Let's make AI a force multiplier for good in cybersecurity.
 
-### Architecture, Engineering & Vendor Evaluation  
-- **Secure Network Engineering Assistant**  
-- **Disaster Backup & Recovery (DBAR) Design Companion**  
-- **Vendor Claim Evaluator – Security Edition**
-
----
-
-## 🧭 Purpose & Philosophy  
-This repository is built on three principles:
-
-1. **Determinism**  
-   Prompts follow strict structures, phases, and guardrails to minimize ambiguity.
-
-2. **Governance‑Grade Communication**  
-   Outputs are designed for SOC analysts, engineers, executives, and auditors.
-
-3. **User Protection & Education**  
-   Especially in prompts like the *Scam Detection Conversation Helper*, the goal is not only to analyze — but to teach.
-
----
-
-## 📄 License  
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## 🔄 Changelog  
-See individual prompt files for detailed version histories.  
-Major updates to the *Scam Detection Conversation Helper* are summarized in the Featured Prompt section above.
-
----
-
-## 🤝 Contributions  
-Contributions are welcome. Please open an issue or submit a pull request with proposed improvements.
+Maintained by Scott Malin, Senior Cybersecurity Engineer (CISSP) — Scott.Malin68@gmail.com
