@@ -98,6 +98,4 @@ Please:
 ## License
 MIT License — see [LICENSE](LICENSE) for full details.
 
-Feel free to fork, adapt, and share improvements. Let's make AI a force multiplier for good in cybersecurity.
-
 Maintained by Scott Malin, Senior Cybersecurity Engineer (CISSP) — Scott.Malin68@gmail.com
