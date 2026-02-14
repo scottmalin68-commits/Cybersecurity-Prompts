@@ -1,4 +1,7 @@
-# 🛡️ Cybersecurity Prompts  
+# 🛡️ Cybersecurity Prompts
+
+![Cybersecurity Prompts Banner](BANNER_Cybersecurity-Prompts.png)
+
 Governance‑grade AI prompts for security engineers, SOC analysts, IT leadership, and security‑minded individuals.
 
 This repository contains a curated suite of deterministic, audit‑ready cybersecurity prompts designed to reduce cognitive load, standardize communication, and accelerate high‑stakes security workflows.  
@@ -30,7 +33,6 @@ It is designed for *anyone* — technical or non‑technical — who is worried 
 - **Continuously updated** to reflect emerging scam techniques, including AI‑powered threats.
 
 ### Recent Evolution (v2.2 → v2.6)
-The prompt has undergone significant, thoughtful upgrades:
 
 - **v2.6 – External Verification Chaining Edition (2026)**  
   - Added trusted‑source lookups (FTC, BBB, etc.) in PHASE 3  
