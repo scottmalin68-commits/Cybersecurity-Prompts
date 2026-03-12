@@ -1,92 +1,39 @@
-\# ==========================================================
+# ==========================================================
+# Cyber Threat Visualizer (Infographic Mode) v1.1
+# Author: Scott M. | Updated March 12, 2026
+# ==========================================================
+## Purpose
+To transform daily threat data into a "scroll-stopping" visual that 
+captures attention and warns people of active digital dangers.
 
-\# Cyber Threat Infographic Generator v1.0
+## Changelog
+# v1.1 (March 12, 2026)
+#   - Relocated Date: Moved to a subtle corner to focus on the threat.
+#   - Attention Focus: High-contrast colors and "🚨 ALERT" headers.
+#   - 2026 Context: Added specific checks for "AI Voice" and "Deepfake" visuals.
 
-\# Author: Scott M. | Updated March 12, 2026
+## AI Engine Recommendations
+1. Ideogram 2.0 (Best for "Text-to-Image" clarity)
+2. Grok (Best for direct X-platform social sharing)
+3. Midjourney v6.1+ (Best for high-end cinematic visuals)
 
-\# ==========================================================
+## Design Rules
+- Goal: Immediate attention. Use high-contrast colors (Neon on Dark).
+- Layout: Vertical (9:16) for mobile phone viewing.
+- Branding: "Author: Scott M." in small text at the very bottom.
+- Date: Place [Current Date] in small, clean text in the top right corner.
 
-\## Purpose
+## Infographic Content Flow
+1. MAIN HEADER: "🚨 [Threat Name] ALERT" (Large, bold, upper-third).
+2. THE VIBE: A large icon or background image representing the threat 
+   (e.g., a robotic face for AI voice scams, or a padlock for data breaches).
+3. WHY IT WORKS: Use "The Hook" (Fear, Love, or Greed) in a bright bubble.
+4. THE RED FLAG: One big, clear warning sign (e.g., "Demands Gift Cards").
+5. THE POWER MOVE: A high-contrast box at the bottom: 
+   "STOP. VERIFY. DON'T CLICK."
+6. FOOTER: Small attribution "Prepared by Scott M. | [Source]"
 
-Turns text-heavy daily threat reports into high-impact, scannable 
-
-visuals for social media, printouts, or family group chats.
-
-
-
-\## Changelog
-
-\# v1.0 (March 12, 2026)
-
-\#   - Initial release.
-
-\#   - Added AI Engine recommendations for 2026.
-
-\#   - Integrated "The Hook" and "Power Move" logic for quick reading.
-
-\#   - Added 2026 AI-safety focus (voice cloning/deepfakes).
-
-
-
-\## AI Engine Recommendations
-
-For best results with text rendering and layout, use:
-
-1\. Ideogram 2.0 (Best for accurate text \& design)
-
-2\. Grok 3 / 4 (Great for quick social-ready graphics)
-
-3\. ChatGPT-5 (DALL-E 4) (Best for iterative design chat)
-
-4\. Canva Magic Media (Best for templates you want to edit later)
-
-
-
-\## Visual Style Rules
-
-\- Layout: Clean, vertical, mobile-friendly (9:16 ratio).
-
-\- Colors: 
-
-&#x20; - Low Threat: Cool Blues/Greens
-
-&#x20; - Medium: Warning Yellow
-
-&#x20; - High: Alert Red \& Black
-
-\- Fonts: Bold sans-serif. High contrast for seniors.
-
-\- Tone: Professional, calm, and urgent but not "scary."
-
-
-
-\## Infographic Sections (Top to Bottom)
-
-1\. Header: "🚨 SCAM ALERT: \[Threat Name]"
-
-2\. Seriousness: A big visual gauge showing \[Low/Med/High].
-
-3\. The Hook: Identify the emotion used (FEAR, LOVE, or GREED).
-
-4\. How it works: 2 very short bullet points.
-
-5\. BIG RED FLAGS:
-
-&#x20;  - \[Icon] Asking for Gift Cards, Crypto, or Cash by mail.
-
-&#x20;  - \[Icon] Pressure to "Act Now" or stay on the phone.
-
-6\. The "Power Move": One bold, center-aligned action (e.g., "HANG UP. CALL BANK DIRECT.")
-
-7\. Footer: "Stay Safe. Verify First. | Source: \[Insert Sources]"
-
-
-
-\## Design Command
-
-Generate a high-resolution infographic based on today's threat report. 
-
-Ensure all text is legible and correctly spelled. Focus on simplicity—
-
-if it’s too cluttered, it won’t be read.
-
+## Design Command
+Generate a high-resolution infographic for today's threat. Use a 
+professional yet alarming aesthetic. Ensure the text "🚨 SCAM ALERT" 
+is the most prominent element. Make sure the date is small and unobtrusive.
