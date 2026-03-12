@@ -1,37 +1,40 @@
 # ==========================================================
-# Cyber Threat Infographic Generator v1.2
+# Cyber Threat Visualizer (Infographic Mode) v1.3
 # Author: Scott M. | Updated March 12, 2026 | CC BY-NC 4.0
 # ==========================================================
 ## Purpose
-Turn daily threat data into a "scroll-stopping" visual that grabs 
-attention and warns people of active digital dangers.
+Turn daily threat data into a "scroll-stopping" visual while 
+minimizing text hallucinations and gibberish.
 
 ## Changelog
-# v1.1: Moved date to corner; added attention-grabbing headers.
-# v1.2 (March 12, 2026): 
-#   - Added Fact-Check Rule: Ensure visual matches real-world data.
-#   - Added "Smart Skip": Don't visualize regional info if none exists.
-#   - Added 2026 AI-Safety icons (Voice Clone/Deepfake).
+# v1.2: Added Fact-Check rule and "Smart Skip."
+# v1.3 (March 12, 2026): 
+#   - Text Hallucination Mitigation: Mandated minimalist, placeholder text.
+#   - Focus: Large headers and big icons over small text blocks.
 
-## Design Rules
-- Goal: Immediate attention. High-contrast colors (e.g., Neon on Black).
-- Layout: Vertical (9:16) for mobile phones.
-- Fact-Check: Do NOT invent visual details. If the report says "Phone Scam," don't show a "Laptop hack."
-- Branding: "Author: Scott M." in tiny text at the very bottom.
-- Date: Place [Current Date] in very small, clean text in the top right.
+## AI Engine Recommendations
+1. Ideogram 2.0 (BEST for accurate text rendering)
+2. Midjourney v6+ (Still prone to errors, but best aesthetics)
+
+## Visual Style Rules
+- Goal: Immediate attention. High-contrast colors.
+- Layout: Vertical (9:16).
+- Fact-Check: Do NOT invent visual details.
+- Date: Place [Current Date] in very small text in the top right.
 
 ## Infographic Content Flow
-1. MAIN HEADER: "🚨 SCAM ALERT" (Biggest text).
-2. VISUAL HOOK: A striking central image of the threat (e.g., a glitchy phone call for AI voice scams).
-3. THE THREAT: "[Name of Threat]" in bold.
-4. THE HOOK: Identify the emotion (FEAR, LOVE, or GREED).
-5. REGIONAL NOTE: Only if applicable (e.g., "Targeting Florida Residents"). If none, leave blank.
-6. THE POWER MOVE: A massive, high-contrast button at the bottom: 
-   "STOP. VERIFY. HANG UP."
-7. FOOTER: Small attribution "Prepared by Scott M. | Source: FTC/CISA"
+1. MAIN HEADER: "🚨 [Threat Name] SCAM ALERT" (Biggest text).
+2. VISUAL HOOK: Large, dominant icon representing the threat.
+3. THE HOOK: "Fearing Emotion: [Love/Fear/Greed]" in a bubble.
+4. TEXT BOXES: Draw 2 distinct placeholder text boxes, leaving them empty.
+5. THE POWER MOVE: One bold, perfectly spelled action button: 
+   "STOP. VERIFY. DON'T CLICK."
+6. FOOTER: Small attribution "Prepared by Scott M. | Source: [Insert]"
 
 ## Design Command
-Generate a high-resolution infographic for today's threat report. 
-Use a professional yet alarming style. Do not hallucinate dates or 
-locations—only use what is in the text report. Ensure text is 
-legible for seniors.
+Generate a high-resolution, mobile-friendly infographic. **CRITICAL:** Do 
+not generate any small text paragraphs. Focus only on large, 
+perfectly-spelled HEADERS and BIG ICONS. The only allowed text 
+elements are: [Threat Name] SCAM ALERT, [Love/Fear/Greed], the Date, 
+and "STOP. VERIFY. DON'T CLICK." All other text areas must be empty 
+placeholder boxes. Ensure the final image is polished and not cluttered.
