@@ -1,25 +1,22 @@
 # ==========================================================
-# Daily Cyber Threat Brief – Easy Mode v1.6
+# Daily Cyber Threat Brief – Easy Mode v1.7
 # Author: Scott M. | Updated March 12, 2026 | CC BY-NC 4.0
 # ==========================================================
 ## Changelog
-# v1.5: Added 2026 AI focus (Voice Cloning) and "The Hook" logic.
-# v1.6 (March 12, 2026): 
-#   - Restored "Rising Trends" & "Regional Threats" sections.
-#   - Added "Payment Red Flags" (Gold/Courier/Crypto).
-#   - Sharpened regional rules for disaster-specific scams.
+# v1.6: Restored trends and added "Smart Location" skip logic.
+# v1.7 (March 12, 2026): 
+#   - Added "Fact-Check" rule: AI must verify dates/details to prevent hallucinations.
+#   - Sharpened "The Hook" for AI voice cloning and "Gold Courier" scams.
 
 ## Purpose
-Short, calm daily update on current scams. Helps families and seniors 
-stay aware without the panic. 
+Short, calm daily update on current scams. Simple and direct for everyone.
 
 ## Rules
 - Sources: FTC, CISA, IC3, BBB, Krebs, and global (ENISA/ACCC).
-- Regional Focus: Check for threats tied to local events (storms, regional bank hacks, or state-level tax changes).
-- AI Focus: Identify voice cloning or deepfake video tricks.
-- Payment Red Flags: Flag any mention of gift cards, crypto, or physical cash/gold by courier.
-- Trend Logic: Include 1-2 emerging threats that aren't huge yet but are growing.
-- Tone: No victim-blaming. Simple, plain English only.
+- **Fact-Check Step:** Before generating, double-check that the threat is from the last 14 days. Do not invent fake "local" alerts; if no regional threat exists, skip that section.
+- AI Focus: Check for AI voice cloning (family scams) or deepfake ads.
+- Payment Red Flags: Always flag requests for gift cards, crypto, or cash/gold via courier.
+- Tone: Grade-school simple. No victim-blaming. No hype words.
 
 ## Output Instructions
 Always begin exactly like this:
@@ -29,33 +26,35 @@ Always begin exactly like this:
 2-3 sentences on the main threat today.
 
 ### Seriousness Today
-Low / Medium / High (Why? e.g., "Targets seniors using AI voices.")
+Low / Medium / High (Why? e.g., "High – hard to detect AI voice.")
 
-### Regional & Local Alerts
-- **Area:** [Region/State or 'National']
-- **Note:** Mention if it's tied to a recent local disaster or event.
+### Regional Alert (Skip if none)
+Only include if a threat is specific to a location (e.g., "Florida hurricane relief").
 
 ### The Hook
 The emotion used: Fear, Love, Greed, or Urgency.
 
 ### Today's Threat: [Name]
-> Describe: what it looks like, the "ask" (money/info), and why it feels real.
+> Describe: what it looks like, the "ask" (money/info), and why it's tricky.
 
 ### Rising Trends (Watch List)
-- **Trend 1:** [Short description of a growing threat]
-- **Trend 2:** [Short description of a new tactic]
+- **Trend 1:** [Emerging threat + 1 sentence]
+- **Trend 2:** [New tactic + 1 sentence]
+
+### Trend Snapshot
+2 sentences on what's changing this week (e.g., "Scams moving from email to text").
 
 ### Red Flags
-- List 2-3 "dead giveaways" (e.g., "Demands payment via Bitcoin").
+- List 2-3 giveaways (e.g., "Caller won't let you hang up").
 
 ### The Quick Fix
-One 10-second move to stay safe (e.g., "Hang up and call the number on your bank card").
+One 10-second move (e.g., "Hang up and call the number on your bank card").
 
 ### Verification Checklist
-1. Don’t click or scan unexpected links/codes.
+1. Don't click or scan unexpected stuff.
 2. Go to the official site yourself.
-3. Use a 'Safe Word' with family for voice calls.
+3. Use a 'Safe Word' with family.
 
 ### Calm Reminder
 Positive sign-off.
-Source: [List sources used]
+Source: [List specific sources used]
