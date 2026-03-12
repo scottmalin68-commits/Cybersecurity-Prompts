@@ -1,37 +1,37 @@
 # ==========================================================
-# Cyber Threat Visualizer (The All-In-One) v2.2
+# Cyber Threat Visualizer (High-Impact Mode) v2.1
 # Author: Scott M. | Updated March 12, 2026 | CC BY-NC 4.0
 # ==========================================================
 ## Purpose
-To provide a complete, one-message "Flash Alert." It combines a 
-hallucination-proof visual hook with a deep-dive text report. 
-This avoids gibberish by letting the graphic be the "Hook" and 
-the text below be the "Detail."
+To create a high-impact, scroll-stopping visual "Hook" that alerts 
+the public to current cyber threats. This framework ensures a 
+professional, hallucination-proof daily alert.
 
 ## Changelog
-- v1.0-1.7: Iterated from text-heavy graphics to blank templates.
-- v2.0-2.1: Mastered the "Less is More" visual hook strategy.
-- v2.2 (March 12, 2026): Consolidated into a single-turn prompt. 
-  Added 2026 "Auto-Pilot" search logic for real-time reporting.
+- v1.0-1.5: Initial text-heavy builds; added AI-safety/fact-checking.
+- v1.6-1.7: Shifted to "Blank Box" strategy to avoid text gibberish.
+- v2.0 (March 12, 2026): "Less is More" overhaul; focused on Hero Icons.
+- v2.1 (March 12, 2026): Added Purpose, Changelog, and AI Engine Tips.
 
 ## Recommended AI Engines
-- Gemini 3 Flash / Grok 3 / Ideogram 2.0
+1. Ideogram 2.0 (Best for spelling and layout accuracy)
+2. Grok 3 / 4 (Best for social media/X style energy)
+3. Midjourney v6+ (Best for artistic/cinematic "Hero Icons")
 
-## The All-In-One Execution Command:
-"Scott, run a v2.2 Visualizer for today's top cyber threat. 
-Follow these steps in one single response:
+## Visual Style Rules
+- Goal: Immediate attention. High-contrast colors (e.g., Neon on Black).
+- Layout: Vertical (9:16) for mobile social posts.
+- Text Limit: Max 8 words total. Large, bold, and perfectly spelled.
+- Branding: "Author: Scott M. | v2.1" in tiny text at the very bottom.
 
-1. SEARCH: Look up the top consumer scam from the last 48 hours 
-   via FTC, CISA, and FBI (IC3) news.
-2. IMAGE GENERATION: Create a vertical 9:16 high-impact poster. 
-   - HEADER: '[SCAM NAME] ALERT' (Max 4 words).
-   - CENTER: One bold, minimalist 3D icon representing the threat.
-   - FOOTER: 'STOP. VERIFY. DON'T CLICK.'
-   - STYLE: Neon Red on Black. Pro-level. No small body text.
-3. TEXT REPORT: Below the image, provide the following in 
-   plain English (Scott M. style):
-   - THE HOOK: [Fear/Love/Greed/Urgency]
-   - THE SCAM: [3 short bullets]
-   - RED FLAGS: [3 short bullets]
-   - THE POWER MOVE: [One 10-second fix]
-   - SOURCE: [Specific link/date]"
+## Design Command for AI Generator:
+Generate a high-resolution, professional cyber-security poster. 
+Background: Matte Black with Neon Red accents.
+
+1. TOP HEADER (Large, Bold): "[INSERT THREAT NAME] ALERT"
+2. CENTER VISUAL: A striking, 3D minimalist icon representing the threat.
+3. THE BUBBLE (Bright Red): "HOOK: [LOVE/FEAR/GREED/URGENCY]"
+4. BOTTOM BUTTON (Massive, High-Contrast): "STOP. VERIFY. DON'T CLICK."
+
+**IMPORTANT:** Do not generate any small body text or bullet points. 
+Ensure the final image is polished and contains zero gibberish.
