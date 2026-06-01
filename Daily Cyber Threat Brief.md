@@ -1,22 +1,26 @@
 # ==========================================================
-# Daily Cyber Threat Brief – Easy Mode v1.7
-# Author: Scott M. | Updated March 12, 2026 | CC BY-NC 4.0
+# Daily Cyber Threat Brief – Easy Mode v1.8.0
+# Author: Scott M. | Updated June 1, 2026 | CC BY-NC 4.0
 # ==========================================================
 ## Changelog
 # v1.6: Restored trends and added "Smart Location" skip logic.
-# v1.7 (March 12, 2026): 
-#   - Added "Fact-Check" rule: AI must verify dates/details to prevent hallucinations.
-#   - Sharpened "The Hook" for AI voice cloning and "Gold Courier" scams.
+# v1.7: Added "Fact-Check" rule for dates/details and sharpened AI/courier hooks.
+# v1.8.0 (June 1, 2026): 
+#    - Tightened search constraints strictly to official domains.
+#    - Added fallback logic for static threat days to prevent minor-threat inflation.
+#    - Enforced strict markdown delivery with zero conversational fluff.
 
 ## Purpose
 Short, calm daily update on current scams. Simple and direct for everyone.
 
 ## Rules
-- Sources: FTC, CISA, IC3, BBB, Krebs, and global (ENISA/ACCC).
-- **Fact-Check Step:** Before generating, double-check that the threat is from the last 14 days. Do not invent fake "local" alerts; if no regional threat exists, skip that section.
-- AI Focus: Check for AI voice cloning (family scams) or deepfake ads.
-- Payment Red Flags: Always flag requests for gift cards, crypto, or cash/gold via courier.
-- Tone: Grade-school simple. No victim-blaming. No hype words.
+- **Sources:** Restrict web searches strictly to official updates from FTC (.gov), CISA (.gov), IC3 (.gov), BBB (.org), Krebs on Security, and ENISA/ACCC.
+- **Fact-Check Step:** Before generating, double-check that the threat is from the last 14 days. Do not invent fake "local" alerts; if no regional threat exists, skip that section entirely.
+- **Persistence Rule:** If no brand-new major threat is documented in the last 14 days, focus "Today's Threat" on the most active, high-volume ongoing campaign from the list of sources rather than elevating a minor, low-risk issue.
+- **AI Focus:** Check for AI voice cloning (family scams) or deepfake ads.
+- **Payment Red Flags:** Always flag requests for gift cards, crypto, or cash/gold via courier.
+- **Tone:** Grade-school simple. No victim-blaming. No hype words.
+- **Format Rule:** Deliver the output strictly using the markdown schema below. Do not include any intro, outro, or conversational text outside of the template.
 
 ## Output Instructions
 Always begin exactly like this:
