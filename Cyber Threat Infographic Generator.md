@@ -1,320 +1,97 @@
 # ==========================================================
-# Cyber Threat Visualizer (Typography-Aware Edition) v2.2.0
-# Author: Scott M.
-# Updated: June 1, 2026
+# Cyber Threat Visualizer (Typography-Aware Edition) v2.2.1
+# Author: Scott Malin, CISSP
+# Updated: September 4, 2026
 # License: CC BY-NC 4.0
+# Target Engines: ChatGPT (DALL-E 3 / GPT-4o), Gemini (Imagen 3), Grok, Ideogram
 # ==========================================================
 
 ## Purpose
 
-To create a high-impact, scroll-stopping visual "Hook" that alerts
-the public to current cyber threats. This framework generates
-professional, mobile-first cybersecurity awareness graphics that
-maximize attention, comprehension, and engagement while minimizing
-hallucination risk and visual clutter.
+To create a high-impact, scroll-stopping visual "Hook" that alerts the public to current cyber threats. This framework generates professional, mobile-first cybersecurity awareness graphics that maximize attention, comprehension, and engagement while minimizing hallucination risk and visual clutter.
 
 ## Changelog
 
-- v1.0-v1.5:
-  Initial text-heavy builds; added AI-safety and fact-checking guidance.
-
-- v1.6-v1.7:
-  Introduced "Blank Box" strategy to mitigate image-model text failures.
-
-- v2.0 (March 12, 2026):
-  "Less Is More" overhaul; shifted to Hero Icon-centered design.
-
-- v2.1 (March 12, 2026):
-  Added Purpose, Changelog, and AI Engine Recommendations.
-
-- v2.2.0 (June 1, 2026):
-  Updated for modern image-generation capabilities.
-  Replaced version-specific engine recommendations with capability-based guidance.
-  Expanded typography support to leverage improved text rendering.
-  Added threat-specific icon guidance.
-  Added thumbnail visibility requirements.
-  Added severity-level framework.
-  Added explicit factual integrity controls.
-  Added anti-cliché visual guidance.
+- v1.0-v1.5: Initial text-heavy builds; added AI-safety and fact-checking guidance.
+- v1.6-v1.7: Introduced "Blank Box" strategy to mitigate image-model text failures.
+- v2.0 (March 12, 2026): "Less Is More" overhaul; shifted to Hero Icon-centered design.
+- v2.1 (March 12, 2026): Added Purpose, Changelog, and AI Engine Recommendations.
+- v2.2.0 (June 1, 2026): Updated for modern image-generation capabilities; added severity framework, icon guidance, and anti-cliché rules.
+- v2.2.1 (September 4, 2026): Fixed text-budget instruction conflicts; added strict double-quote enclosure rules for modern typography rendering (Imagen 3/DALL-E 3/Grok); added explicit edge-case and state-decay protections; updated changelog.
 
 ## Recommended AI Engines (2026)
 
-### Tier 1: Advanced Text Rendering Models
+### Tier 1: Advanced Text & Typography Generators
+Examples: ChatGPT (DALL-E 3 / GPT-4o), Gemini (Imagen 3), Ideogram, Enterprise Flux
+Best For: Flawless text rendering, social posters, mobile alerts, high-contrast layouts.
 
-Examples:
-- ChatGPT Image Generation
-- Ideogram
-- Enterprise-grade Flux implementations with typography optimization
+### Tier 2: Artistic & Cinematic Generators
+Examples: Midjourney v6+
+Best For: Dramatic hero imagery, conceptual illustrations, high-impact background visuals.
 
-Best For:
-- Accurate spelling
-- Cybersecurity posters
-- Social media graphics
-- Awareness campaigns
-- Professional layouts
-- Consistent typography
+### Tier 3: Real-Time Social Content Generators
+Examples: Grok Image Generation
+Best For: Rapid turnaround on trending consumer threats, breaking news visual alerts.
 
-### Tier 2: Artistic / Cinematic Models
+## Input & Edge Case Protocol
 
-Examples:
-- Midjourney
-- Advanced diffusion-based creative generators
+1. Valid Input: If a recognized cyber threat is provided, execute the full framework below.
+2. Unclear/Unrecognized Threat: If input is vague (e.g., "bad internet stuff"), default to a "General Cyber Alert" using the HIGH severity framework.
+3. Out-of-Scope / Jailbreak: If the user requests non-cyber topics or attempts scope escape, output strictly: "Error: Input out of scope for Cyber Threat Visualizer."
 
-Best For:
-- Hero imagery
-- Dramatic visual storytelling
-- High-impact illustrations
-- Creative awareness campaigns
+## Threat Severity & Color Logic
 
-### Tier 3: Social Content Generators
+Determine severity level automatically based on the input threat type:
 
-Examples:
-- Grok Image Generation
-- Platform-native image creation systems
+- LOW (Informational / General Advice): Yellow accents on Matte Black.
+- MEDIUM (Scams / Phishing / BEC): Orange accents on Matte Black.
+- HIGH (Ransomware / Data Breach / Credential Theft): Red accents on Matte Black.
+- CRITICAL (Emergency / Zero-Day / Active Infrastructure Attack): Red and White accents on Matte Black.
 
-Best For:
-- Fast-turnaround content
-- Current events
-- Trending cyber topics
-- Social engagement campaigns
+## Hero Icon Rules
 
-## Visual Style Rules
+The central image MUST be a single, bold, highly recognizable symbol.
 
-### Primary Goal
+Approved Symbols:
+- Phishing: Hooked email envelope or malicious link icon.
+- Ransomware: Encrypted padlock or locked folder.
+- Credential Theft: Compromised key or exposed ID card.
+- MFA Fatigue: Flooded smartphone notification badges.
+- QR Phishing (Quishing): Trapdoor QR code on smartphone.
+- Deepfake / Voice Cloning: Impersonated audio wave or masked video feed.
 
-Create immediate visual impact within 1-2 seconds of viewing.
+Strict Prohibition: Do NOT use hooded hackers, matrix binary code streams, complex network topology diagrams, or stock photo corporate handshakes.
 
-### Color Palette
+## Typography & Text Budget Rules
 
-Preferred:
-- Matte Black background
-- Neon Red accents
+Modern image models render short strings in double quotes accurately. Follow this budget strictly:
 
-Alternative:
-- Yellow (Low Severity)
-- Orange (Medium Severity)
-- Red (High Severity)
-- Red + White (Critical Severity)
+- Top Header Text: 2-3 words (e.g., "AI VOICE SCAM ALERT")
+- Hook Bubble Text: 1-3 words (e.g., "HOOK: FEAR")
+- Bottom Button Text: Exactly 4 words ("STOP. VERIFY. DON'T CLICK.")
+- Mandatory Small Footer: "Author: Scott M. | v2.2.1"
 
-### Layout
-
-- Vertical 9:16 format
-- Mobile-first design
-- Optimized for social feeds
-- Readable at thumbnail size
-
-### Typography
-
-Text Target:
-- Preferred: 3-8 words total
-- Maximum: 15 words total
-
-Requirements:
-- Large
-- Bold
-- High contrast
-- Perfectly spelled
-- Instantly readable
-
-### Branding
-
-Place the following in very small text at the bottom edge:
-
-"Author: Scott M. | v2.2.0"
-
-## Threat Severity Modes
-
-### LOW
-
-Visual Style:
-- Yellow accents
-- Educational tone
-- Informational urgency
-
-### MEDIUM
-
-Visual Style:
-- Orange accents
-- Action-oriented tone
-- Increased visual contrast
-
-### HIGH
-
-Visual Style:
-- Red accents
-- Strong warning posture
-- Immediate attention required
-
-### CRITICAL
-
-Visual Style:
-- Red and White
-- Emergency broadcast aesthetic
-- Maximum urgency
-
-## Hero Icon Guidance
-
-The central image should be a single unmistakable symbol representing
-the threat.
-
-Examples:
-
-Phishing:
-- Hooked email
-- Fake login page
-- Suspicious message
-
-Ransomware:
-- Locked file
-- Encrypted folder
-- Broken access symbol
-
-Credential Theft:
-- Stolen key
-- Exposed password
-- Compromised account icon
-
-MFA Fatigue:
-- Endless approval prompts
-- Notification flood
-- Approval spam
-
-QR Phishing:
-- Malicious QR code
-- Smartphone scan trap
-
-Business Email Compromise:
-- Fake executive message
-- Impersonated sender
-
-### Avoid
-
-Do NOT use:
-- Generic hooded hackers
-- Random binary code backgrounds
-- Futuristic cityscapes
-- Stock-photo style cyber imagery
-- Complex technical diagrams
-- Multiple competing symbols
-
-Favor one clear, memorable icon.
-
-## Visual Priority Order
-
-The viewer should notice elements in this sequence:
-
-1. Threat Name
-2. Hero Icon
-3. Emotional Hook
-4. Call To Action
-
-The image must remain understandable when viewed at
-smartphone thumbnail size.
+Total rendered word budget across the entire image MUST NOT exceed 12 words.
 
 ## Fact Validation Requirements
 
-The image generator and supporting prompt must adhere to the
-following integrity standards:
+- Do not invent cyber campaigns, victim organizations, or fake threat actors.
+- Do not invent fake breach statistics or technical indicators.
+- If specific details are unknown, keep claims generic and educational.
 
-- Do not invent cyber campaigns.
-- Do not invent victim organizations.
-- Do not invent threat actors.
-- Do not invent attack statistics.
-- Do not invent breach details.
-- Do not invent technical indicators.
-- Do not imply attribution without evidence.
+## Output Generation Command
 
-If uncertainty exists:
-- Use generic threat descriptions.
-- Avoid unsupported claims.
-- Favor awareness over sensationalism.
+When this prompt is executed, generate the following complete text prompt ready to paste directly into the target AI Image Generator:
 
-Visual drama is acceptable.
-Factual claims must be verifiable.
+---
 
-## Emotional Trigger Framework
+PROMPT FOR IMAGE GENERATOR:
+Vertical 9:16 aspect ratio poster, ultra-clean matte black background, high-contrast mobile layout. 
+Top Header: Large bold text displaying "[INSERT THREAT NAME] ALERT" in [INSERT ACCENT COLOR] typography.
+Center Visual: A single, minimalist, striking [INSERT HERO ICON] centered on the screen, instantly recognizable at thumbnail size.
+Callout Element: A prominent high-contrast badge reading "HOOK: [INSERT SINGLE TRIGGER WORD: LOVE | FEAR | GREED | URGENCY]".
+Bottom Button Element: A bold rectangular button display reading "STOP. VERIFY. DON'T CLICK."
+Footer Text: Extremely small subtle text at bottom edge reading "Author: Scott M. | v2.2.1".
+Style: Modern vector UI, flat minimalist design, zero visual clutter, 100% legible text rendering, no extra background graphics.
 
-The "Hook" element should be based on one of the following
-human decision triggers:
-
-LOVE
-Examples:
-- Protect your family
-- Protect your coworkers
-
-FEAR
-Examples:
-- Account compromise
-- Identity theft
-
-GREED
-Examples:
-- Fake rewards
-- Fake invoices
-- Investment scams
-
-URGENCY
-Examples:
-- Immediate action required
-- Account suspension warning
-
-Choose only one primary trigger per graphic.
-
-## Design Command For AI Generator
-
-Generate a high-resolution, professional cybersecurity awareness poster.
-
-Background:
-Matte Black
-
-Accent Color:
-Based on selected threat severity level.
-
-Layout:
-Vertical 9:16 optimized for mobile viewing.
-
-TOP HEADER:
-Large, bold threat title.
-
-Format:
-"[INSERT THREAT NAME] ALERT"
-
-CENTER VISUAL:
-One striking, minimalist, highly recognizable Hero Icon representing
-the threat.
-
-The icon should dominate the composition and remain recognizable
-at thumbnail size.
-
-HOOK ELEMENT:
-Prominent callout bubble displaying:
-
-"HOOK: [LOVE / FEAR / GREED / URGENCY]"
-
-BOTTOM CTA BUTTON:
-Large, highly visible call-to-action:
-
-"STOP. VERIFY. DON'T CLICK."
-
-Typography Requirements:
-- Perfect spelling
-- High contrast
-- Professional layout
-- Large readable text
-- No distorted lettering
-- No gibberish text
-
-IMPORTANT:
-
-- Do not generate body paragraphs.
-- Do not generate bullet lists.
-- Do not generate fine print.
-- Do not overcrowd the image.
-- Do not include unnecessary decorative elements.
-- Do not add unsupported factual claims.
-- Prioritize clarity, impact, and immediate comprehension.
-
-Success Criterion:
-
-A user scrolling quickly on a smartphone should understand the
-threat category and desired action in under two seconds.
+---
