@@ -2,9 +2,9 @@
 WORKFLOW ARCHITECT PROMPT – USAGE GUIDE
 ============================================================
 
-AUTHOR: Scott M.
-VERSION: 1.0
-LAST UPDATED: 2026-03
+AUTHOR: Scott Malin, CISSP
+VERSION: 1.1.1
+LAST UPDATED: 2026-09
 
 ============================================================
 PURPOSE
@@ -54,23 +54,19 @@ collect the information needed to build a complete workflow.
 
 The interview includes the following phases:
 
-1. Workflow Goal
-2. Workflow Trigger
-3. Inputs
-4. Process Steps
-5. Decision Points
-6. Exceptions
-7. Outputs
-8. Optimization
+1. The Goal
+2. The Trigger
+3. The Inputs
+4. The Mapping (steps, roles, decisions, and failure paths)
+5. The Outputs
 
 The AI asks one question at a time to gather the required details.
 
 Once the interview is complete, the AI generates:
 
 • workflow summary
-• step-by-step process list
-• decision logic
-• flowchart-ready framework
+• step-by-step process list (including the 'Who')
+• flowchart framework
 • workflow gap analysis
 
 ============================================================
@@ -82,11 +78,8 @@ The prompt produces several structured sections.
 WORKFLOW SUMMARY
 A plain-language description of the workflow.
 
-WORKFLOW STEPS
-A numbered sequence describing the process.
-
-DECISION LOGIC
-Conditional branches within the workflow.
+STEP-BY-STEP MAP
+A numbered list including the 'Who' and any branching logic.
 
 FLOWCHART FRAMEWORK
 A text-based structure that can easily be converted into a diagram.
