@@ -13,7 +13,7 @@ These prompts are built from real-world operational experience to:
 Maintained by a practicing cybersecurity professional dedicated to raising the bar on AI-assisted security operations and openly sharing battle-tested tools with the community.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-[![Last Updated](https://img.shields.io/badge/Updated-Sep_2026-blue)](#)  
+[![Last Updated](https://img.shields.io/badge/Updated-Oct_2026-blue)](#)  
 [![GitHub stars](https://img.shields.io/github/stars/scottmalin68-commits/Cybersecurity-Prompts?style=social)](https://github.com/scottmalin68-commits/Cybersecurity-Prompts)  
 [![Open Issues](https://img.shields.io/github/issues/scottmalin68-commits/Cybersecurity-Prompts)](https://github.com/scottmalin68-commits/Cybersecurity-Prompts/issues)
 
@@ -42,7 +42,7 @@ Created and refined through hands-on work in threat detection, incident response
 
 ## Featured Prompts
 
-### Scam Detection Conversation Helper
+### Scam Detection Conversation Helper (v4.6.1)
 
 **A mature, multi-phase, educational safety engine for real-world scam prevention** — suitable for technical and non-technical users alike.
 
@@ -52,6 +52,9 @@ Created and refined through hands-on work in threat detection, incident response
 - Teaches scam recognition while analyzing  
 - Chains external verification (FTC, BBB, IC3)  
 - 2026 coverage: AI voice cloning, deepfakes, job scams, already-acted recovery branch  
+- Distress & crisis handling (leads with kindness, 988 resources, minor/sextortion guidance)  
+
+**Submitted for review** to Cybercrime Support Network (FightCybercrime.org), NCOA, and BBB Institute for Marketplace Trust as a free resource for their volunteer toolkits — v4.6.1
 
 Companion: [Scam Detector – Technical Edition.md](Scam%20Detector%20%E2%80%93%20Technical%20Edition.md)
 
@@ -68,6 +71,7 @@ Full prompt: [Daily Cyber Threat Brief.md](Daily%20Cyber%20Threat%20Brief.md)
 | Category | Focus Areas | Key Prompts |
 |---------------------------------------|--------------------------------------------------|-------------|
 | **Threat Intelligence & Analysis** | Aggregation, daily briefs, anomaly & adversarial detection | [Advanced Cybersecurity Threat Intelligence Aggregator](Advanced%20Cybersecurity%20Threat%20Intelligence%20Aggregator.md)<br>[Cybersecurity Threat Intelligence Aggregator - Human Readable output](Cybersecurity%20Threat%20Intelligence%20Aggregator%20-%20Human%20Readable%20output.md)<br>[Daily Cyber Threat Brief](Daily%20Cyber%20Threat%20Brief.md)<br>[Adversarial Noise Detection Engine](Adversarial%20Noise%20Detection%20Engine.md) |
+| **OSINT & Research Navigation** | Constrained tool selection from authorized catalog, investigation objective matching | [OSINT Navigator](OSINT%20Navigator.md) |
 | **Consumer Threat Visuals** | Social-ready briefs and image prompts from approved sources | [Cyber Threat Brief Infographic Engine](Cyber%20Threat%20Brief%20Infographic%20Engine.md)<br>[Cyber Threat Infographic Generator](Cyber%20Threat%20Infographic%20Generator.md)<br>[Infographic Content Formatter](Infographic%20Content%20Formatter.md) |
 | **Security Operations & IR** | Incident comms, root cause, decision review, playbooks | [Senior Cybersecurity Incident Communications Assistant](Senior%20Cybersecurity%20Incident%20Communications%20Assistant.md)<br>[Executive Summary Generator for Root Cause Analysis](Executive%20Summary%20Generator%20for%20Root%20Cause%20Analysis.md)<br>[Digital Behavior Anomaly Checker](Digital%20Behavior%20Anomaly%20Checker.md)<br>[Root cause analysis](Root%20cause%20analysis.md)<br>[Security Decision Review Assistant](Security%20Decision%20Review%20Assistant.md)<br>[Incident Playbook Organizer and Updater](Incident%20Playbook%20Organizer%20and%20Updater.md)<br>[Cybersecurity Playbook Architect](Cybersecurity%20Playbook%20Architect.md) |
 | **Executive & Governance Comms** | Translating tech to leadership, resourcing justification | [Executive-Safe Security Decision Explanation](Executive-Safe%20Security%20Decision%20Explanation.md)<br>[Executive-Safe IT Resourcing & Staffing Justification](Executive-Safe%20IT%20Resourcing%20%26%20Staffing%20Justification.md)<br>[DBAR Communication & Audience Translation Assistant](DBAR%20Communication%20%26%20Audience%20Translation%20Assistant.md) |
@@ -89,6 +93,12 @@ Full prompt: [Daily Cyber Threat Brief.md](Daily%20Cyber%20Threat%20Brief.md)
 - If you identify a prompt weakness or safety improvement, report it via a private issue or discussion.
 
 ## Changelog
+
+### October 2026
+- Scam Detection Conversation Helper advanced to **v4.6.1** (distress & crisis handling, minor/sextortion guidance, tightened High-Risk triggers, language support, and other refinements).  
+- **Submitted for review** to Cybercrime Support Network (FightCybercrime.org), NCOA, and BBB Institute for Marketplace Trust as a free resource for their volunteer toolkits — v4.6.1.  
+- Added OSINT Navigator (v1.1.1) — constrained, closed-world OSINT tool selector with authorized catalog.  
+- README refreshed: badges, categories, and featured section updated.
 
 ### September 2026
 - Daily Cyber Threat Brief → **v1.8.4** (locked template, jailbreak/state-decay defenses).
