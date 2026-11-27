@@ -1,3 +1,5 @@
+![Scam-Detector-Banner](Scam-detector-banner.jpg)
+
 # Scam Detection Conversation Helper
 
 **A plain-spoken, crisis-aware AI prompt that helps everyday people spot scams, avoid false alarms, and take the right recovery steps—without technical jargon or victim-blaming.**
